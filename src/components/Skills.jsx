@@ -8,6 +8,12 @@ import CSS from "../assets/css.png";
 import MongoDB from "../assets/mongo.png";
 import Firebase from "../assets/firebase.png";
 import BootStrap from "../assets/bootstrap.png";
+import NodeImg from "../assets/NodeImg.png";
+import ExpressImg from "../assets/ExpressImg.png";
+import Tailwind from "../assets/tailwind.png";
+import HTML from "../assets/html.png";
+import Github from "../assets/github.png";
+import Appwrite from "../assets/Appwrite.png"
 
 const Skills = () => {
   return (
@@ -29,20 +35,20 @@ const Skills = () => {
             <p className="my-4">C++</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
-            <p className="my-4">CSS</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={BootStrap} alt="HTML icon" />
-            <p className="my-4">BootStrap</p>
+            <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
+            <p className="my-4">React</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={JavaScript} alt="HTML icon" />
             <p className="my-4">JavaScript</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
-            <p className="my-4">React</p>
+            <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
+            <p className="my-4">CSS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={BootStrap} alt="HTML icon" />
+            <p className="my-4">Bootstrap</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Mysql} alt="HTML icon" />
@@ -53,8 +59,32 @@ const Skills = () => {
             <p className="my-4">MongoDB</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={NodeImg} alt="HTML icon" />
+            <p className="my-4">NodeJs</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={ExpressImg} alt="HTML icon" />
+            <p className="my-4">ExpressJs</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Firebase} alt="HTML icon" />
             <p className="my-4">FireBase</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
+            <p className="my-4">Tailwind CSS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
+            <p className="my-4">HTML</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Github} alt="HTML icon" />
+            <p className="my-4">Github</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Appwrite} alt="HTML icon" />
+            <p className="my-4">Appwrite</p>
           </div>
         </div>
       </div>

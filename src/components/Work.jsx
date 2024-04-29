@@ -50,7 +50,7 @@ const Work = () => {
                 Shopinn
               </span>
               <div className="pt-8 text-center">
-              <a href="https://ecommerce-w-app.netlify.app/">
+                <a href="https://ecommerce-w-app.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -63,11 +63,12 @@ const Work = () => {
               </div>
             </div>
           </div>
+
           {/* Grid Item */}
-          
-          
+
+
           {/* Grid Item */}
-          
+
         </div>
       </div>
     </div>
